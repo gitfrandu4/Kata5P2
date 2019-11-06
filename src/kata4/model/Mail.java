@@ -8,10 +8,11 @@ public class Mail {
     }
     
     public String getDomain() {
-        return "";
+        return this.mail.substring(this.mail.indexOf("@") + 1);
     }
     
     public static boolean isMail (String line){
-        return true;
+        return line.matches("^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@"
+                        + "[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$");
     }
 }
