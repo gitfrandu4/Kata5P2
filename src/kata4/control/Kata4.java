@@ -10,7 +10,7 @@ import kata4.view.MailListReader;
 public class Kata4 {
     
     public static void main(String[] args) {
-       String fileName = "C:\\Users\\jdelh\\Dropbox\\40822 - Ingeniería de Software II\\Prácticas en Laboratorio\\Kata3\\kata4\\src\\kata4\\control\\email.txt";
+       String fileName = "email.txt";
         /* I */ List<Mail> mailList = MailListReader.read(fileName);
         /* P */ Histogram histogram = MailHistogramBuilder.build(mailList);        
         /* O */ HistogramDisplay histoDisplay = new HistogramDisplay(histogram);
