@@ -26,5 +26,4 @@ Kata 5: Segunda parte
 
 
 
-<img src="C:\Users\jdelh\Dropbox\40822 - Ingeniería de Software II\Prácticas en Laboratorio\Kata5\Kata5P2\Kata5P2\imgs\Diagrama_kata5p2.png" alt="Diagrama_kata5p2" style="zoom:75%;" />
-
+<img src="https://github.com/gitfrandu4/Kata5P2/blob/master/imgs/Diagrama_kata5p2.png" alt="Diagrama_kata5p2" style="zoom:75%;" />
